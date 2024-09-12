@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/jogo_logic.dart';
 
 class JogoScreen extends StatefulWidget {
-  const JogoScreen({super.key})
+  const JogoScreen({super.key});
   @override
   _JogoScreenState createState() => _JogoScreenState();
 }
