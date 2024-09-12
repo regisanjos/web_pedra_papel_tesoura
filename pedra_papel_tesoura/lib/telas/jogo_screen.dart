@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import '../models/jogo_logica.dart';
+import '../models/jogo_logic.dart';
 
 class JogoScreen extends StatefulWidget {
+  const JogoScreen({super.key})
   @override
   _JogoScreenState createState() => _JogoScreenState();
 }
@@ -96,7 +97,7 @@ class _JogoScreenState extends State<JogoScreen> {
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
             ),
-            // Escolha do Computador
+            
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
