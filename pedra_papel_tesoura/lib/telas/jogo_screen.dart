@@ -83,7 +83,7 @@ class _JogoScreenState extends State<JogoScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                _buildEscolhaButton('assets/images/'stone.png, 'Pedra'),
+                _buildEscolhaButton('assets/images/stone.png', 'Pedra'),
                 _buildEscolhaButton('assets/images/paper.png', 'Papel'),
                 _buildEscolhaButton('assets/images/scissor.png', 'Tesoura'),
               ],
